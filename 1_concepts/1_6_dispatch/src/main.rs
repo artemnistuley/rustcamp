@@ -47,11 +47,11 @@ where
 }
 
 // Dynamic dispatch
-struct DynamicUserReposittory {
+struct DynamicUserRepository {
     storage: Box<dyn Storage<u64, User>>,
 }
 
-impl DynamicUserReposittory {
+impl DynamicUserRepository {
     fn new(storage: Box<dyn Storage<u64, User>>) -> Self {
         Self { storage }
     }
@@ -112,7 +112,7 @@ mod tests {
     #[test]
     fn test_dynamic_user_repository() {
         let storage = Box::new(HashMapStorage::<u64, User>::default());
-        let mut user_repo = DynamicUserReposittory::new(storage);
+        let mut user_repo = DynamicUserRepository::new(storage);
 
         let user1 = User::new(1, "user1@test.com", true);
         user_repo.add(user1.clone());
