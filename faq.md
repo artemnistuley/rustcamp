@@ -47,7 +47,7 @@ No, we usually don't record meetings. So, ensure you don't miss them.
 
 ##### <ins>*- What should I do if my contact information has changed?*</ins><br/>
 
-If you change your GitHub username, email, or telegram, be sure to let [Stepan](https://t.me/stepko_o) know.
+If you change your GitHub username, email, or telegram, be sure to let [Bootcamp coordinator](https://t.me/kos_my) know.
 
 ## Completing tasks and PR
 
@@ -78,11 +78,11 @@ Create a separate branch for each task in your private fork. Complete the task i
 
 ##### <ins>*- When is a task considered completed?*</ins><br/>
 
-A task is marked as completed when you've made a Pull Request, and it's been reviewed, approved and merged. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section. Before mentor can merge your pull request into the main branch, you need to receive approval. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR and task considered as completed.
+A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by all your mentors. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section. Before [our bot](https://github.com/1tbot) can merge your pull request into the main branch, you need to receive approval. Before your pull request can be merged into the main branch, you must receive approval from all of your assigned mentors.
 
 ##### <ins>*- How do mentors distinguish between finished Pull Requesters and unfinished Pull Requesters?*</ins><br/>
 
-A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by one of the reviewers. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
+A task is marked as completed when you've made a Pull Request, and it's been reviewed and approved by all your mentors. After you complete your Pull Request, remove the "NOT READY / DRAFT / WIP" marker from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
 ##### <ins>*- Should I open an unfinished PR?*</ins><br/>
 
 Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAFT / WIP" in the title . Your mentors will review it once you remove this marker and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
@@ -91,9 +91,9 @@ Yes, you should. Open a PR as soon as you can, marking it with "NOT READY / DRAF
 
 Please don't do PR merge yourself. Your mentors make the merge themselves. 
 
-##### <ins>*- How many mentors need to approve before I can merge?*</ins><br/>
+##### <ins>*- How many mentors need to approve before bot can merge?*</ins><br/>
 
-You need approval from at least one mentor before merging the Pull Request into the main branch. However, if more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all of them.
+To improve the quality of reviews and accelerate the exchange of experience, a PR must be approved by all of your mentors. A task will not be considered completed without receiving approval from every assigned mentor.
 
 ##### <ins>*- Where should I answer the questions in the first chapter?*</ins><br/>
 

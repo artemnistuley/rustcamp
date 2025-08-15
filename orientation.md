@@ -58,7 +58,7 @@ Each participant has been assigned to a specific group, with each group having 2
 
 ### Routines
 
-Expect to join calls with your fellow learners and mentors four days a week. During these group sessions, we strongly encourage you to **voice your questions** and engage actively in discussions. Be prepared to answer queries posed by your mentor. We also recommend turning on your **video camera** to foster a more personable and engaging experience for both participants and mentors. Please join meetings **5 minutes before** they start to show respect to peers and mentors.
+Expect to join calls with your fellow learners and mentors four days a week. During these group sessions, we strongly encourage you to **voice your questions** and engage actively in discussions. Be prepared to answer queries posed by your mentor. We also recommend turning on your **video camera** to foster a more personable and engaging experience for both participants and mentors. Please join meetings **5 minutes before** they start to show respect to peers and mentors. Note, that these meetings will not be recorded.
 
 ### Topology of curriculum
 
@@ -153,7 +153,7 @@ There are a few potential reasons for expulsion from the group, which include bu
 
 ### Exclusion algorithm
 
-- Write to the person responsible for the expulsion of students - [Stepan](https://t.me/stepko_o)
+- Write to the person responsible for the expulsion of students - [Bootcamp coordinator](https://t.me/kos_my)
 - Say goodbye to everyone in a telegram chat. (You can also write your feedback and tell the reason of your living if you want).
 - Log out of the chat within 24 hours.
 
@@ -161,9 +161,9 @@ There are a few potential reasons for expulsion from the group, which include bu
 
 ## Getting Started
 
-Wait for the invite to your new repository from [our bot](https://github.com/1tbot). For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, one of your mentors will merge it into the master/main branch. After that, the exercise will be considered done.
+Wait for the invite to your new repository from [our bot](https://github.com/1tbot). For each exercise, you'll need to create separate pull requests. Then, when the reviewer checks and approves your pull request, [our bot](https://github.com/1tbot) will merge it into the master/main branch. After that, the exercise will be considered done.
 
-1. [Our bot](https://github.com/1tbot) will create a private fork of the main [Rustcamp repository](https://github.com/rust-lang-ua/rustcamp) in [our organization](https://github.com/rust-lang-ua) and invite you.
+1. [Our bot](https://github.com/1tbot) will create a private fork of the main [Rustcamp repository](https://github.com/rust-lang-ua/rustcamp) in [our organization](https://github.com/rust-bootcamp) and invite you.
 
 2. Also, your mentors will already be in the repository.
 
@@ -171,14 +171,16 @@ This course is continually evolving, and it's important to stay updated with the
 
 ## Submitting Solutions
 
-For each task of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section.
+For each task of the rustcamp, you should create and submit a separate [PR (pull request)][PR]. Make sure to give your PR a [relevant title](https://github.com/rust-lang-ua/rustcamp/blob/master/faq.md#--how-should-i-name-pr). After you've completed your pull request, please remove any markers like "NOT READY", "DRAFT", or "WIP" from the title and specify [our bot](https://github.com/1tbot) as a reviewer and tag all of your mentors in the comments section. All communication about PR-s happens via GitHub, so please always use the PR comment section to tag mentors and ask for a review.
 
 Please, don't do PR merge yourself. 
-Before merging the pull request into the main branch, you need to receive approval from at least one mentor. If more than one mentor has reviewed your Pull Request and requested changes, you must receive approval from all involved mentors. If all the conditions are executed, mentors will be able to merge your PR.
+To ensure a thorough review and exchange of experience between mentors, your pull request must be approved by **all** of your assigned mentors before it can be merged into the main branch. After receiving approvals from all mentors, [our bot](https://github.com/1tbot) will merge your PR.
 
 Each task of the rustcamp is a [Cargo workspace member][workspace], meaning you can run and test it from the project root using commands like `cargo run -p task_1_8`. We highly recommend using tools like [rustfmt] and [Clippy] while writing your [Rust] code.
 
 Never hesitate to reach out to your mentor or lead with questions. However, be aware that you may not always receive a direct answer. Instead, they may guide you towards a path for your own exploration and discovery. Remember, in this learning journey, it's usually the mentor or lead who asks the questions, expecting thorough and precise responses from you.
+
+If you haven't received the review 1-2 days after the submit, feel free to write to mentors privately to remind them about your PR.
 
 ## Useful links
 
